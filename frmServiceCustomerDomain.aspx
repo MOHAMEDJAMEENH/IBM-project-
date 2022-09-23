@@ -1,9 +1,9 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Customers/ServiceMaster.master" AutoEventWireup="true" CodeFile="frmServiceCustomerDomain.aspx.cs" Inherits="Services_frmServiceCustomerDomain" Title="Untitled Page" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Admin/AdminMaste.master" AutoEventWireup="true" CodeFile="frmServiceCustomerDomain.aspx.cs" Inherits="Admin_frmServiceCustomerDomain" Title="Untitled Page" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 <div>
         <center>
             <br />
-            <asp:Label ID="lblHeading" BackColor="Window" ForeColor="#CCCC00" runat="server" Text="Service Customer Domain"
+            <asp:Label ID="lblHeading" BackColor="Window" ForeColor="#003366" runat="server" Text="Service Customer Domain"
                 Style="font-size: small; font-weight: 700; font-family: Verdana"></asp:Label>
             <br />
             <br />

@@ -11,7 +11,7 @@ using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Xml.Linq;
 
-public partial class Services_frmServiceCustomerDomainComplaint : System.Web.UI.Page
+public partial class Admin_frmServiceCustomerDomainComplaint : System.Web.UI.Page
 {
     clsService objService = new clsService();
     clsCustomer objCustomer = new clsCustomer();

@@ -11,7 +11,7 @@ using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Xml.Linq;
 
-public partial class Services_frmServiceCustomerDomain : System.Web.UI.Page
+public partial class Admin_frmServiceCustomerDomain : System.Web.UI.Page
 {
     clsService objService = new clsService();
     protected void Page_Load(object sender, EventArgs e)
@@ -84,7 +84,10 @@ public partial class Services_frmServiceCustomerDomain : System.Web.UI.Page
                 DataRow dr = ds.Tables[0].Rows[0];
                 if (ds.Tables[0].Rows.Count != 0)
                 {
+                    ddlServiceCustomerId.Items.Add(dr[1].ToString());
+                    ddlDomainId.Items.Add(dr[2].ToString());
                     txtPhone.Text =dr[3].ToString();
+                    ddlInChargeId.Items.Add(dr[4].ToString());
                     txtManagerName.Text =dr[5].ToString();
                     txtEmail.Text =dr[6].ToString();
                     txtAddress.Text =dr[7].ToString();

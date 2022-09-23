@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Customers/ServiceMaster.master"  AutoEventWireup="true" CodeFile="frmServiceCustomerDomainComplaint.aspx.cs" Inherits="Services_frmServiceCustomerDomainComplaint" Title="Untitled Page" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Admin/AdminMaste.master"  AutoEventWireup="true" CodeFile="frmServiceCustomerDomainComplaint.aspx.cs" Inherits="Admin_frmServiceCustomerDomainComplaint" Title="Untitled Page" %>
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">

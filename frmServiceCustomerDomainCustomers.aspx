@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Customers/ServiceMaster.master"  AutoEventWireup="true" CodeFile="frmServiceCustomerDomainCustomers.aspx.cs" Inherits="Services_frmServiceCustomerDomainCustomers" Title="Untitled Page" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Admin/AdminMaste.master" AutoEventWireup="true" CodeFile="frmServiceCustomerDomainCustomers.aspx.cs" Inherits="Admin_frmServiceCustomerDomainCustomers" Title="Untitled Page" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 <center style="width: 445px">
             <table style="border: thin solid #CCFF33">
